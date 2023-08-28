@@ -1,0 +1,106 @@
+/*This section was included*/
+/*after looking into some*/
+/*tips and external references*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*-------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+body {
+    background-color: #f3f3f3;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+
+/*------------------ Header style ------------------*/
+nav {
+  background-color: #f3f3f3;
+  font-size: 10px;
+  font-weight: 400;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  width: 35%;
+  height: 100%;
+  border-right: 2px solid gray;
+  overflow-y: auto;
+}
+
+nav header{
+  position: static;
+  background-color: #f3f3f3;
+}
+
+nav a{
+  display: block;
+  border-top: 1px solid black;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  width: 100%;
+  font-size: 15px;
+  margin: 0;
+}
+
+@media(max-width: 815px){
+  nav{
+    position: relative;
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    height: 300px;
+  }
+  nav a:first-of-type{
+    border-top: 2px solid gray;
+  }
+}
+
+h1{
+  font-size: 22px;
+  padding: 20px;
+}
+
+/*------------------ Header style ------------------*/
+
+/*------------------ Main page style ------------------*/
+main{
+  display: block;
+  margin: 0 auto;
+  padding-left: 45%;
+}
+@media(max-width: 815px){
+  main{
+    padding-left: 5%;
+  }
+}
+
+h2{
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+section{
+  margin: 5px auto;
+}
+
+p, li{
+  margin: 15px;
+  line-height: 25px;
+}
+
+code{
+  display: block;
+  background-color: lightgray;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+}
+
+/*------------------ Main page style ------------------*/

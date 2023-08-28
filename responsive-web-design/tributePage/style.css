@@ -1,0 +1,80 @@
+
+/*------------------ Main page style ------------------*/
+#main {
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    align-items: center;
+}
+p {font-size: 15px;}
+/*------------------ Main page style ------------------*/
+
+/*------------------ Header style ------------------*/
+#title {
+    padding: 50px 0 10px;
+}
+
+#img-div{
+    background-color: white;
+    margin: 0 15px;
+}
+
+#image {
+    margin: 0 auto;
+    max-width: 95%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+/*------------------ Header style ------------------*/
+
+/*------------------ Section style ------------------*/
+section{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+section h2{
+    font-size: 15px;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul{
+    line-height: 20px;
+}
+
+li{
+    margin: 20px auto;
+}
+
+ul:last-child{
+    margin-bottom: 20px;;
+}
+
+.date {font-weight: bold;}
+
+#talk{
+    font-style: italic;
+}
+
+a:visited {color: #74638f;}
+a {color: #477ca7;}
+
+/*------------------ Section style ------------------*/
+
+footer{
+    width: 100%;
+    margin: 20px auto;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+/* https://codepen.io/freeCodeCamp/full/zNqgVx */
